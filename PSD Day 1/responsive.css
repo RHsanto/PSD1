@@ -1,0 +1,188 @@
+/*==========Tablet layout=======*/
+
+@media only screen and (min-width:200px) and (max-width:991px){
+
+
+body{
+ 
+}
+
+.top-header-area{
+
+  width: 80%;
+}
+
+.social-menu {
+  max-width: 300px;
+  margin-right: 165px;
+}
+
+.mean-container .mean-bar{
+
+background-color:#312d2d;
+
+}
+
+.mean-container .mean-nav ul li {
+
+background-color: #442424;
+
+
+}
+
+
+.content-hero h2 {
+  margin-top: 100px;
+  font-size: 50px;
+  width: 80%;
+}
+  .content-hero p{
+
+    width: 78%;
+
+  }  
+  .content-hero a{
+  
+    margin-right: 220px;
+   }
+    .about-sec{
+      width: 765px;
+    }
+  
+  .main-div{
+  padding: 25px;
+    display: block;
+  }
+    .about{
+  
+     width: 99%;
+     
+    }
+  .service{
+    margin-top: 50px;
+    width: 99%;
+   margin-bottom: 50px;
+  
+  }
+  
+  .testimonial{
+  
+    width: 99%;
+  }
+  
+  
+  .container.main-footer {
+    display: block;
+    padding: 20px;
+  }
+  .sub-footer-sec {
+    width: 90%;
+  
+  }
+  
+
+  .copyright{width: 79%; padding: 10px;}
+
+
+  .left-copy{ margin-top: -10px;}
+  
+   
+  
+  
+  .right-copy{ margin-top: -20px;}
+
+
+}
+
+/* ======= Mobile layout ========*/
+
+@media only screen and (min-width:200px) and (max-width:480px){
+
+ 
+
+  
+  .search-box{
+margin-top: 20px;
+margin-right: 450px;
+
+  }
+
+  .logo{
+
+    margin-left: 40px;
+  }
+  .social-menu.right{
+  margin-left: -50px;
+    float: none;
+  
+  }
+  
+  .content-hero{
+  padding: 15px;
+  float: left;
+    
+  }
+  
+  
+  .content-hero h2{
+    font-size: 25px;
+   
+  }
+  
+  .content-hero p{
+  
+  width: 35%;
+  
+  }
+  
+  .content-hero a{
+  
+   margin-right: 600px;
+  }
+  
+  .about-sec{
+    width: 380px;
+  }
+
+.main-div{
+padding: 25px;
+  display: block;
+}
+  .about{
+
+   width: 95%;
+   
+  }
+.service{
+  margin-top: 50px;
+  width: 95%;
+ margin-bottom: 50px;
+
+}
+
+.testimonial{
+
+  width: 95%;
+}
+
+
+.container.main-footer { display: block;}
+ 
+  
+.sub-footer-sec {width: 40%;}
+
+.copyright{width: 39%;}
+
+
+.left-copy{ margin-top: -10px;}
+
+ 
+
+
+.right-copy{ margin-top: -20px;}
+ 
+
+
+
+}
+

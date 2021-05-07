@@ -1,0 +1,812 @@
+
+  
+/*=================
+   tablet mode
+===================
+@media only screen and (min-width:480px) and (max-width:767px){
+
+
+.main-menu ul{
+margin-left: -30px;
+    margin-top: -11px;
+   }
+  
+   .about-sec{
+  
+  margin-left: -20px;
+  
+   }
+    .main-header-area{
+       
+        width: 800px;
+       height: auto;
+      }
+  
+      .logo{
+        margin-left: -10px;
+      }
+      .social-menu{
+        margin-right: 85px;
+        margin-top:-110px;
+      }
+  
+      .container{
+        width: 750px;
+        height: auto;
+     
+    
+      }
+   .main-div{
+  
+      width: 720px;
+      height: auto;
+      padding: 50px;
+    }
+    
+  
+  
+
+  
+  .search-box form input[type="text"]{
+   
+    }
+  
+    .right-copy{
+    margin-top: -20px;
+  
+      }
+      
+  
+
+
+}
+
+
+/* ===============
+   mobile mode
+   ===============
+
+@media only screen and (min-width:201px) and (max-width:479px){
+
+  .main-menu ul{
+
+    margin-top: -11px;
+   }
+  
+   .about-sec{
+  
+  margin-left: -20px;
+  
+   }
+    .main-header-area{
+       
+        width: 500px;
+       height: auto;
+      }
+  
+      .logo{
+        margin-left: -10px;
+      }
+      .social-menu{
+        margin-right: 85px;
+        margin-top:-110px;
+      }
+  
+      .container{
+        width: 445px;
+        height: auto;
+     
+     
+      }
+   .main-div{
+  
+      width: 350px;
+      height: auto;
+      padding: 50px;
+    }
+    
+  
+  
+  .search-box{
+    margin-right: 20px;
+    margin-top: -40px;
+    float: none;
+  }
+  
+  .search-box form input[type="text"]{
+    border:none;
+    color: black;
+    border-radius: 25px;
+    background-color: aliceblue;
+    width: 100px;
+    
+    }
+  
+    .right-copy{
+    margin-top: -20px;
+  
+      }
+      
+  
+ 
+}
+
+ 
+/*===================
+    small
+================= 
+
+@media only screen and (min-width:200px) and (max-width:360px){
+
+.top-header-menu{
+
+margin-left: -30px;
+
+}
+.main-menu{
+
+  width: 250px;
+}
+  
+   .about-sec{
+  
+  margin-left: -50px;
+  
+   }
+    .main-header-area{
+       
+        width: 400px;
+       height: auto;
+      }
+  
+     
+      .logo{
+        margin-left: -20px;
+      }
+     
+      .social-menu.right {
+        float: none;
+      
+        margin-top: -10px;
+        width: 250px;
+     margin-left: -80px;
+
+    }
+      .container{
+        width: 360px;
+        height: auto;
+     
+     
+      }
+
+      .container.main-footer {
+        width: 300px;
+    }
+
+   
+   .main-div{
+  
+      width: 350px;
+      height: auto;
+    
+    }
+    
+  form{
+    margin-top: 35px;
+
+  
+  }
+  
+input{
+
+margin-left: 5px;
+  
+}
+  
+
+
+  
+  .left-copy{
+    margin-top: -20px;
+
+  }
+    .right-copy{
+    margin-top: -20px;
+  
+      }
+      
+  
+ 
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$  
+     common css
+$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+*{
+
+  margin: 0;
+
+}
+
+a{
+  text-decoration:none ;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+
+  float: right;
+}
+
+.container{
+ 
+
+}
+
+.mul{
+
+  margin: 0 auto;
+  width :960px;
+}
+img{
+
+  max-width: 100%;
+  height:auto;
+}
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$  
+     top header area css
+$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+.top-header-area{
+  background-color: #ba2e1f;
+ height: auto;
+ padding: 15px 0px;
+ overflow: hidden;
+}
+
+.top-header-menu{
+
+width: 70%;
+float: left;
+}
+
+.top-header-menu ul{
+  text-align: left;
+}
+
+.top-header-menu ul li{
+
+display: inline-block;
+margin-right: 5px;
+border-right: 2px solid white;
+padding-right:5px ;
+}
+
+.top-header-menu ul li a{
+
+color: white;
+font-size: 14px;
+}
+
+.search-box{
+width: 30%;
+float: right;
+
+}
+
+.search-box form{
+width: 96%;
+max-width: 210px;
+background-color: aliceblue;
+border-radius: 25px;
+padding: 2px 3px;
+padding: 2%;
+}
+
+.search-box form input[type="text"]{
+border:none;
+color: black;
+border-radius: 25px;
+background-color: aliceblue;
+width: 75%;
+padding: 1%;
+float: left;
+cursor: pointer;
+}
+
+.search-box form input[type="submit"]{
+ background-image:url(image/ssssssssss.png) ;
+ background-position: right;
+ background-repeat: no-repeat;
+width: 23%;
+background-color: aliceblue;
+border: none;
+ cursor: pointer;
+  }
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$  
+     main header area css
+$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.main-header-area{
+
+  padding: 30px;
+}
+
+.logo{
+  width: 40%;
+  margin-bottom: 41px;
+}
+
+.logo img{
+  width: 240px;
+}
+.social-menu{
+
+  width: 50%;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.social-menu ul{
+  text-align: right;
+}
+
+.social-menu ul li{
+
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.social-menu ul li a{
+
+font-size: 18px;
+color: white;
+text-align: center;
+}
+
+.social-menu ul li a i{
+background: black;
+width: 100%;
+height: 25px;
+padding: 5px;
+border-radius: 50%;
+}
+
+.social-menu ul li:hover a i{
+
+background: orange;
+
+}
+/* $$$$$$$$$$$$$$$$$$$$$$$$$  
+     main menu css
+$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+.main-menu{
+background-color: #333333;
+width: 100%;
+clear: both;
+height: 41px;
+padding-top: 15px ;
+border-radius: 5px;
+position: relative;
+z-index: 2;
+}
+
+.main-menu::after{
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+  left: 0;
+  background: #2b2b2b;
+  content: '';
+  z-index: -2;
+border-radius: 5px;
+
+}
+
+
+.main-menu ul{
+  text-align: center;
+}
+.main-menu ul li{
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+.main-menu ul li a{
+  color: white;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+
+.main-menu ul li a:hover{
+  color: #ba2e1f;
+}
+
+ /* Dropdown menu css*/
+    
+ .main-menu ul li ul{
+    
+   background-color: #2B2B2B;
+  
+    margin-top: 20px;
+
+  position: absolute;
+  
+   top:110%;
+  
+ width: 150px;
+
+  
+  
+  }
+  
+  .main-menu ul li ul li{
+  
+  
+  display: block;
+  
+  border:none;
+  
+  
+  padding: 15px ;
+  
+  
+  }
+  
+
+  
+  
+  .main-menu ul li ul li a {
+  
+  font-size: 15px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+    
+  .main-menu ul li ul li:hover{
+  
+  color:#ba2e1f;
+  }
+  
+  /*Workin manu*/
+  
+ 
+
+  
+  .main-menu ul li ul {
+  
+  opacity: 0;
+  
+  visibility: hidden;
+    
+  transition:1s ;
+  
+  transform: scaleZ(0);
+  
+  transform-origin: top ;
+
+ 
+  
+  }
+  
+  
+  .main-menu ul :hover ul{
+  
+      transform:scaleZ(1); 
+     display: block;
+   opacity: 1;
+   visibility: visible;
+
+  }
+  /* $$$$$$$$$$$$$$$$$$$$$$$$$  
+    hero area css
+$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+.hero-area{
+
+  margin-top: 21px;
+}
+
+.img-sec{
+
+  float: left;
+  width: 40%;
+  margin-right: 2%;
+}
+
+.content-hero h2{
+
+font-weight: normal;
+font-size: 86px;
+line-height: 1.3em;
+}
+
+.content-hero p{
+
+color:#666666 ;
+font-size: 16px;
+line-height: 1.3em;
+}
+
+.content-hero a{
+
+float: right;
+margin-top: 10px;
+color: #ba2e1f;
+}
+
+  /* $$$$$$$$$$$$$$$$$$$$$$$$$  
+      about section css
+$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+.about-sec{
+  background-color:#f2f2f2 ;
+  padding-top: 55px;
+  clear: both;
+  
+}
+
+.main-div{
+ 
+  display: flex;
+}
+.about{
+  width: 32%;
+  margin: 1%;
+}
+
+
+.about h2, .service h2, .testimonial h2{
+  margin-bottom: 50px;
+  font-size: 26px;
+  color: #333333;
+  font-weight: normal;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about p{
+  margin-top: 20px;
+  text-align: justify;
+  font-weight: normal;
+font-family: Georgia;
+color: #878787;
+
+}
+
+.about a{
+
+  float: right;
+  margin-top: 10px;
+  color: #ba2e1f;
+
+}
+
+.service{
+  width: 32%;
+  margin: 1%;
+
+}
+
+.under-service{
+  display:flex;
+  margin-top: 5px;
+}
+
+.service-img{
+  width: 35%;
+margin-bottom: 2px;
+
+}
+
+.service-content {
+margin-top:6px;
+margin-left: 5px;
+
+}
+
+.service-content h3{
+font-size: 16px;
+color: #878787;
+font-weight: normal;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.service-content p{
+font-size: 14px;
+color: #878787;
+font-weight: normal;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.service a{
+
+  float: right;
+  margin-top: 10px;
+  color: #ba2e1f;
+margin-top: 5px;
+}
+.testimonial{
+  width: 32%;
+  margin: 1%;
+
+}
+.under-testimonial{
+  margin-top: 27px;
+}
+.under-testimonial h3{
+
+  color: #989898;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  background-image: url(image/double-coma.png);
+  background-repeat: no-repeat;
+  padding: 15px 0px 15px 55px;
+  
+}
+
+.under-testimonial h3 span{
+  font-weight: normal;
+}
+
+.under-testimonial p{
+
+  font-size: 16px;
+  line-height: 1.3em;
+  color: #878787;
+  font-weight: normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.under-testimonial a{
+  float: right;
+  margin-top: 10px;
+  color: #ba2e1f;
+margin-top: 5px;
+}
+
+
+  /* $$$$$$$$$$$$$$$$$$$$$$$$$  
+     footer section css
+$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+#footer-sec{
+  margin-top: 28px;
+  display: flex;
+}
+.main-footer{
+  display: flex;
+
+}
+.sub-footer-sec{
+  width: 32%;
+  margin: 1%;
+}
+
+.sub-footer-sec h2{
+  padding-top: 20px;
+  padding-bottom: 35px;
+  border-top: 1px solid #666666;
+  font-size: 16px;
+  color: #666666;
+}
+
+.sub-footer-sec p{
+
+  font-size: 14px;
+  color: #666666;
+  padding-bottom: 30px;
+
+}
+
+.sub-footer-sec p a{
+  color: #ba2e1f;
+}
+
+.sub-footer-sec ul li{
+  list-style: none;
+  border-bottom: 1px solid #666666;
+  padding: 6px 0px;
+}
+
+.sub-footer-sec ul li a{
+
+color: #666;
+font-size: 14px;
+
+}
+
+.post{
+  font-size: 16px;
+  font-weight: bold;
+  color: #666666;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.admin{
+  font-size: 12px;
+  color: #ba2e1f;
+  
+}
+
+.date{
+  font-size: 11px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+
+}
+
+.read{
+  float: right;
+ margin-top: 25px;
+  color: #ba2e1f;
+
+}
+
+.sub-footer-sec form input{
+  background-color: #f2f2f2;
+  border: 0px solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 5px;
+  width: 80%;
+}
+
+
+textarea{
+  background-color: #f2f2f2;
+  border: 0px solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 5px;
+  width: 80%;
+
+}
+
+
+.sub-footer-sec form input[type='submit']{
+  color: #ba2e1f;
+  width: 20%;
+}
+
+  /* $$$$$$$$$$$$$$$$$$$$$$$$$  
+     copyright section css
+$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+.copyright{
+background-color: #f2f2f2;
+height: 65px;
+color:#919191;
+}
+
+.left-copy{
+  width: 50%;
+  padding-top: 26px;
+}
+
+.right-copy{
+  padding-top: 26px;
+  width: 20%;
+}
